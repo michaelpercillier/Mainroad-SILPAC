@@ -1,3 +1,16 @@
+# Mainroad-SILPAC
+
+This is a minor adaptation of the [Mainroad Hugo theme by Vimux](https://github.com/Vimux/Mainroad) undertaken for the website of the SILPAC research Unit (<https://silpac.uni-mannheim.de>).
+
+Changes are:
+
+- Recent posts are no longer shown on the landing page, but only in the sidebar widget.
+- The heading "Recent Posts" in the sidebar widget has been changed to "Recent Activities".
+
+For details on usage, refer to the original repository (README repeated below).
+
+---
+
 # Mainroad
 
 **Mainroad** is a responsive, simple, clean and content-focused [Hugo](https://gohugo.io/) theme based on the

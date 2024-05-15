@@ -5,7 +5,8 @@
 		{{ . }}
 	</div>
 	{{- end }}
-	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+	<!-- The following lines list the recent posts on the main page, we wamt them in the sidebar only -->
+	<!--{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 	{{- range $paginator.Pages }}
 		{{- .Render "summary" }}
 	{{- end }}
@@ -19,6 +20,7 @@
 			</div>
 		</div>
 	{{ end }}
+	-->
 </main>
 {{ partial "pagination.html" . }}
 {{ end }}
