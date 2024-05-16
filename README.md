@@ -6,6 +6,7 @@ Changes are:
 
 - Recent posts are no longer shown on the landing page, but only in the sidebar widget.
 - The heading "Recent Posts" in the sidebar widget has been changed to "Recent Activities".
+- Changed the favicon to match the project logo
 
 For details on usage, refer to the original repository (README repeated below).
 
